@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish', 'package.json' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose publish [ 'package.json' ]
+5 silly cache add args [ 'package.json', null ]
+6 verbose cache add spec package.json
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: 'package.json',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: 'package.json',
+7 silly cache add   spec: '/home/ace/node/package.json',
+7 silly cache add   type: 'local' }
+8 silly addLocalTarball shasum (computed) 1da0a30242d0fc7af75325e4313ad31828cd0e05
+9 verbose addTmpTarball /home/ace/node/package.json not in flight; adding
+10 verbose addTmpTarball validating metadata from /home/ace/node/package.json
+11 verbose tar unpack /home/ace/node/package.json
+12 verbose tar unpacking to /tmp/npm-13465-5dbbac3d/unpack-8ec73223
+13 silly gentlyRm /tmp/npm-13465-5dbbac3d/unpack-8ec73223 is being purged
+14 verbose gentlyRm don't care about contents; nuking /tmp/npm-13465-5dbbac3d/unpack-8ec73223
+15 silly gunzTarPerm modes [ '775', '664' ]
+16 error not a package /home/ace/node/package.json
+17 error addLocal Could not install /home/ace/node/package.json
+18 verbose stack Error: ENOENT: no such file or directory, open '/tmp/npm-13465-5dbbac3d/unpack-8ec73223/package.json'
+19 verbose cwd /home/ace/node
+20 error Linux 4.18.0-20-generic
+21 error argv "/usr/bin/node" "/usr/bin/npm" "publish" "package.json"
+22 error node v8.10.0
+23 error npm  v3.5.2
+24 error path /tmp/npm-13465-5dbbac3d/unpack-8ec73223/package.json
+25 error code ENOENT
+26 error errno -2
+27 error syscall open
+28 error enoent ENOENT: no such file or directory, open '/tmp/npm-13465-5dbbac3d/unpack-8ec73223/package.json'
+29 error enoent ENOENT: no such file or directory, open '/tmp/npm-13465-5dbbac3d/unpack-8ec73223/package.json'
+29 error enoent This is most likely not a problem with npm itself
+29 error enoent and is related to npm not being able to find a file.
+30 verbose exit [ -2, true ]
